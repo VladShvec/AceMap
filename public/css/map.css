@@ -1,0 +1,77 @@
+#main_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+body,html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#right_sidebar_menu{
+    width: 30%;
+    background-color: #507578;
+}
+.menu{
+    display: flex;
+
+}
+.map_cursor {
+    cursor: pointer;
+}
+#menu_list{
+    height: 90px;
+    background-color: #1e6672;
+    padding: 26px 20px;
+}
+
+.marker_form{
+    width: 100%;
+    padding: 20px 23px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.marker_form input{
+    margin-bottom: 20px;
+}
+.marker_form button{
+    margin-bottom: 20px;
+}
+.form_and_buttons{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+}
+.menu_button_add{
+    margin-top: 20px;
+    width: 50%;
+    margin-right: 23px;
+}
+.hide{
+    display: none;
+}
+.show_menu{
+    display: flex;
+}
+.show_list{
+    display: flex;
+}
+#bt{
+    margin-right: 20px;
+}
+.war{
+    font-size: 11px;
+    position: absolute;
+    top: 57px;
+    color: #1e6672;
+    font-weight: bolder;
+}
+.war2{
+    font-size: 11px;
+    position: absolute;
+    top: 115px;
+    color: #1e6672;
+    font-weight: bolder;
+}

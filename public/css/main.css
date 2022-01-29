@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#root{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/19602.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#login_root{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpaperaccess.com/full/3784902.jpg);
+}
+
+
+.input{
+    display: block;
+    vertical-align: middle;
+    line-height: 2em;
+    font-size: 20px;
+    margin-bottom: 52px;
+    border: 4px solid #343a40 !important;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_contaner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#eye{
+    position: absolute;
+    right: 15px;
+    top: 20.9%;
+}
+.warning{
+    position: absolute;
+    bottom: -8px;
+    left: 15px;
+    color: #b3d5f1;
+    font-weight: 700;
+}
+.change_border{
+    border: 4px solid #4891d5 !important;
+}
+.but{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 900;
+}
+.but:hover{
+    background-color: #b3d5f1;
+}
+.main-head{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 900;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+#root_welcome{
+    background-image: url(https://wallpaperaccess.com/full/19603.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.root_container_welcome{
+    display: flex;
+    align-items: center;
+    height: 64vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#root_container{
+    overflow: hidden;
+}
+.btns{
+    color: aliceblue;
+}
+.btns a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.btns a:hover{
+    color: aliceblue;
+}
+
+#popup {
+    box-sizing: content-box;
+    position: absolute;
+    top: 25%;
+    z-index: 2;
+    left: 25%;
+    width: 400px;
+    height: 200px;
+    font-weight: bolder;
+    border: 1px solid #1e6672;
+    padding: 20px;
+    text-align: center;
+    background-color: #1e6672;
+    color: #fff;
+    border-radius: 12%;
+}
+.open:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(0 0 0 / 55%);
+}
+#popup p{
+    padding-top: 50px;
+}
