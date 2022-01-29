@@ -55,10 +55,11 @@
 }
 .warning{
     position: absolute;
-    bottom: -8px;
+    bottom: -15px;
     left: 15px;
     color: #b3d5f1;
     font-weight: 700;
+    line-height: 13px;
 }
 .change_border{
     border: 4px solid #4891d5 !important;
@@ -135,4 +136,12 @@
 }
 #popup p{
     padding-top: 50px;
+}
+#logout{
+    float: right;
+    margin-right: 2px;
+}
+#logout:after{
+    content: '';
+    clear: right;
 }

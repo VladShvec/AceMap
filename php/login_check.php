@@ -35,6 +35,7 @@
             $_SESSION['current_user'] = $row;
             $_SESSION['current_user_pass'] = $pas;
             $_SESSION['user_id'] = $id;
+            print_r($id);
             header('Location: ../public/mainpage.php');
         }else{
             echo 'false row';

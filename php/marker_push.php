@@ -8,7 +8,7 @@ $user_ses = $_SESSION['current_user_pass'];
 $user_name = $user_ses['username'];
 $user_id = $_SESSION['user_id'];
 $id = $user_id['user_id'];
-
+print_r($id);
 ////print_r($password_from_session);
 //print_r($_SESSION['user_id']);
 //echo '<br>'.$id;

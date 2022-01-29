@@ -1,8 +1,13 @@
 <?php
 include '../php/header.php';
+session_start();
+$_SESSION['current_user'] = '';
+$_SESSION['current_user_pass'] = '';
+$_SESSION['user_id'] = '';
 ?>
     <div id="login_root">
         <div class="root_container container">
+            <a href="main.php" class="btn btn-dark">Зарегистрироваться</a>
             <h1 class="main-head">Авторизация</h1>
             <form action="../php/login_check.php" id="form" class="container" method="post">
                 <div class="input_contaner">
@@ -33,7 +38,7 @@ include '../php/header.php';
                     <p id="warningPassword" class="d-none warning">Ввведенный вами пароль должно содержать минимум 5 символа</p>
 
                 </div>
-                <input type="submit" class="btn btn-dark but">
+                <input type="submit" value="Войти" class="btn btn-dark but">
             </form>
         </div>
     </div>
